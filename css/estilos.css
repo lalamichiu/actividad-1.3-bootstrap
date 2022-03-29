@@ -1,0 +1,73 @@
+html, body{
+    font-family: sans-serif
+}
+
+.header {
+    background-color: rgb(245, 172, 78);
+}
+
+.header .nav .nav-link:hover{
+    font-weight: bold;
+}
+
+.logopaw {
+    width: 50px;
+}
+
+#contenedorPerro {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background-color: rgb(245, 172, 78);
+}
+
+.contenido {
+    background-color: rgb(245, 172, 78);
+    color: white;
+    padding: 20px 0;
+}
+
+.principal {
+    background-color: rgb(128, 154, 240);
+}
+
+.redes {
+    text-align: center;
+}
+.redes ul{
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.redes ul li {
+    background-color: white;
+    color: rgb(128, 154, 240);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.social-icon {
+    height: 16px;
+}
+
+.contenedor-inferior {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
+}
